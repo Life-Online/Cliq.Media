@@ -15,7 +15,6 @@ jobs:
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
-        run: echo Hello, world!
         with:
           server: ftp.cliqmedia.ng
           username: ${{ secrets.USERNAME }}
